@@ -7,7 +7,7 @@
   "author": "Bruno Furtado <brunofurmon@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "setup": "cp .env.example .env",
+    "setup": "yarn install && cp .env.example .env",
     "run-dev": "nodemon ./src/index.js",
     "postversion": "git push --follow-tags"
   },
