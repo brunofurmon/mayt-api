@@ -14,6 +14,6 @@
 
 > Are there any technical debts included in this piece of code?
 
-# Risks
+## - Risks
 
 > Describe all risks involved in applying this code to the master branch
