@@ -12,7 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
--   In order to use scoped-per-request registered modules, controllers must access scoped components through `ctx.state.container.resolve('moduleName')` instead of receiving them from module injection. Not that I agree that much, but that's how it was built to work :/
+-   In order to use scoped-per-request registered modules, controllers must access scoped components through `ctx.state.container.resolve('moduleName')` instead of receiving them from module injection. That's how it was built to work :/
 
 ## [0.1.0]
 
