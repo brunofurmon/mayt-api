@@ -1,6 +1,6 @@
 require('dotenv/config');
 
-const container = require('./container');
+const container = require('./src/container');
 
 const server = container.resolve('server');
 
