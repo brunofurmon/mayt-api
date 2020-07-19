@@ -8,7 +8,7 @@
   "license": "MIT",
   "scripts": {
     "setup": "yarn install && cp .env.example .env",
-    "run-dev": "nodemon ./src/index.js",
+    "run-dev": "nodemon --inspect ./index.js",
     "postversion": "git push --follow-tags"
   },
   "devDependencies": {
