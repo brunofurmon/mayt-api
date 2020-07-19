@@ -1,4 +1,4 @@
-const { createContainer, asFunction } = require('awilix');
+const { createContainer, asFunction, asValue } = require('awilix');
 
 const loggerFactory = require('./infrastructure/logger/loggerFactory');
 
@@ -10,8 +10,9 @@ const healthCheckControllerFactory = require('./application/controllers/healthCh
 const container = createContainer();
 
 container.register({
+    container: asValue(container),
     logger: asFunction(loggerFactory).singleton(),
-    healthCheckController: asFunction(healthCheckControllerFactory).scoped(),
+    healthCheckController: asFunction(healthCheckControllerFactory).singleton(),
     server: asFunction(serverFactory).singleton(),
     router: asFunction(routerFactory).singleton()
 });
