@@ -1,6 +1,6 @@
 {
   "name": "mayt-api",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "MAYT - Mate, are you there?",
   "main": "./src/index.js",
   "repository": "git@github.com:brunofurmon/mayt-api.git",
