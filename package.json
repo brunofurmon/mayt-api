@@ -1,6 +1,6 @@
 {
   "name": "mayt-api",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "MAYT - Mate, are you there?",
   "main": "./src/index.js",
   "repository": "git@github.com:brunofurmon/mayt-api.git",
@@ -8,7 +8,7 @@
   "license": "MIT",
   "scripts": {
     "setup": "yarn install && cp .env.example .env",
-    "run-dev": "nodemon ./src/index.js",
+    "run-dev": "nodemon --inspect ./index.js",
     "postversion": "git push --follow-tags"
   },
   "devDependencies": {
