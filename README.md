@@ -4,7 +4,7 @@
 
 ## Requirements
 
--   node 12 or superior
+-   node 14 or superior
 -   yarn
 
 ## Setup
