@@ -9,8 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
--   eslint + prettier config, formatting all current files
--   Hooks for staged files and git pushes
+-   eslint + prettier + husky + lint-staged config
+-   Formats all existing .js, .md and .json files
+-   Adds jest support and hooks test acceptance before push
 
 ## [0.3.1]
 
