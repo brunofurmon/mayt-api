@@ -14,7 +14,7 @@ container.register({
     logger: asFunction(loggerFactory).singleton(),
     healthCheckController: asFunction(healthCheckControllerFactory).singleton(),
     server: asFunction(serverFactory).singleton(),
-    router: asFunction(routerFactory).singleton(),
+    router: asFunction(routerFactory).singleton()
 });
 
 module.exports = container;

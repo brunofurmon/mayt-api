@@ -8,5 +8,8 @@
     "parserOptions": {
         "ecmaVersion": 11
     },
-    "rules": {}
+    "rules": {
+        "no-trailing-spaces": "error",
+        "comma-dangle": ["error", "never"]
+    }
 }
