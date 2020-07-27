@@ -1,7 +1,7 @@
 const { OK, INTERNAL_SERVER_ERROR } = require('http-status');
 
 module.exports = () => {
-    const healthCheck = async (ctx) => {
+    const healthCheck = async ctx => {
         const everythingIsOk = true;
 
         const status = everythingIsOk ? OK : INTERNAL_SERVER_ERROR;
