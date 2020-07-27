@@ -30,10 +30,10 @@ module.exports = ({ router, logger, container }) => {
                 });
             } catch (err) {
                 logger.error('Problem initializing application dependencies', {
-                    error: inspect(err),
+                    error: inspect(err)
                 });
                 process.exit(1);
             }
-        },
+        }
     };
 };

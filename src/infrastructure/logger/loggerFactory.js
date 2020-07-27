@@ -26,6 +26,6 @@ module.exports = () => {
     return {
         info,
         warn,
-        error,
+        error
     };
 };
