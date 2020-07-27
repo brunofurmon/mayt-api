@@ -1,7 +1,6 @@
 const Router = require('koa-router');
 
 module.exports = ({ healthCheckController }) => {
-
     const router = new Router();
 
     // Welcome

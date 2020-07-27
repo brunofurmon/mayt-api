@@ -5,10 +5,10 @@ module.exports = () => {
         const everythingIsOk = true;
 
         const status = everythingIsOk ? OK : INTERNAL_SERVER_ERROR;
-        const body = everythingIsOk ? "OK" : "KO";
+        const body = everythingIsOk ? 'OK' : 'KO';
 
         ctx.status = status;
-        ctx.body = body
+        ctx.body = body;
     };
 
     return { healthCheck };

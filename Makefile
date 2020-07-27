@@ -7,7 +7,7 @@ INTERACTIVE := $(shell [ -t 0 ] && echo i || echo d)
 # Returns date in YYYY-MM format
 DOCKER_DATE_TAG=$(shell date +%Y-%m)
 APPDIR = /usr/mayt
-SERVER_PORT=3001
+SERVER_PORT=3100
 PORT_DEBUG=5858
 CONTAINER_NAME=mayt-api
 
